@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: fastapi-app-2
-          image: thangaakilan/fastapi-app:cef01c27cc675468213323cb309c568e24f53faa
+          image: thangaakilan/fastapi-app:282c669cf5254cfffd29e1adfe9ca0428f5f8418
           env:
           - name: SERVICE_NAME
             value: "fastapi-app-2"
