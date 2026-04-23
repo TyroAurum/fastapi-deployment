@@ -17,6 +17,9 @@ spec:
       containers:
         - name: fastapi-app
           image: thangaakilan/fastapi-app:cef01c27cc675468213323cb309c568e24f53faa
+          env:
+          - name: SERVICE_NAME
+            value: "fastapi-app"
           ports:
             - containerPort: 8000
           resources:
